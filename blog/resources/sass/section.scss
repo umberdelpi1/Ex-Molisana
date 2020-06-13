@@ -1,0 +1,62 @@
+section{
+  height: 60px;
+  min-width: 100%;
+  background: rgb(255,85,85);
+  .menu{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    a{
+      margin: 10px auto;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+h1{
+  font-family: monospace;
+  padding-top: 20px;
+  text-align: center;
+}
+.listaPasta{
+  background-image: url(/img/logoSfondo.jpg);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: solid lightblue 4px;
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  img{
+    box-shadow: 5px 10px rgba(#636363,.18);
+    height: 350px;
+    width: 600px;
+  }
+  h1{
+    font-family: monospace;
+    padding-top: 20px;
+  }
+  h2{
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: lighter;
+    border-bottom: dotted red 2px;
+  }
+  p{
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+  }
+  h3{
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: lighter;
+    border-bottom: dotted red 2px;
+  }
+}

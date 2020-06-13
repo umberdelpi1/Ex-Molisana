@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  border-bottom: solid #a0b7da 1px;
+}
+
+header .logo {
+  height: 199px;
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo img {
+  height: 150px;
+  width: 250px;
+}
+
+header .navbar {
+  height: 199px;
+  min-width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(/img/sfondoHeader.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  height: 60px;
+  min-width: 100%;
+  background: #ff5555;
+}
+
+section .menu {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+
+section .menu a {
+  margin: 10px auto;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: monospace;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.listaPasta {
+  background-image: url(/img/logoSfondo.jpg);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: solid lightblue 4px;
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.listaPasta img {
+  box-shadow: 5px 10px rgba(99, 99, 99, 0.18);
+  height: 350px;
+  width: 600px;
+}
+
+.listaPasta h1 {
+  font-family: monospace;
+  padding-top: 20px;
+}
+
+.listaPasta h2 {
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: lighter;
+  border-bottom: dotted red 2px;
+}
+
+.listaPasta p {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.listaPasta h3 {
+  font-size: 17px;
+  font-family: monospace;
+  font-weight: lighter;
+  border-bottom: dotted red 2px;
+}
+
+main .parteCentrale {
+  height: auto;
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+main .parteCentrale h2 {
+  line-height: 50px;
+  text-align: center;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/img/montagna.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid #e3e3e3 1px;
+}
+
+footer .col1 {
+  height: 300px;
+  min-width: 15%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid #a0b7da 1px;
+  background: rgba(255, 255, 255, 0.93);
+}
+
+footer .col1 .logo2 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .col1 .logo2 img {
+  height: 70px;
+  width: 100px;
+}
+
+footer .col1 .titleFooter1 {
+  height: 200px;
+  width: 100%;
+}
+
+footer .col1 .titleFooter1 ul {
+  padding: 15px;
+  line-height: 35px;
+}
+
+footer .col1 .titleFooter1 ul li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+footer .col2 {
+  height: 300px;
+  min-width: 15%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  border: solid #a0b7da 1px;
+  background: rgba(255, 255, 255, 0.93);
+}
+
+footer .col2 ul {
+  padding: 10px;
+  line-height: 55px;
+}
+
+footer .col2 ul li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+footer .col3 {
+  height: 300px;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .col3 #map {
+  height: 300px;
+  width: 100%;
+  border: solid #a0b7da 1px;
+}
+

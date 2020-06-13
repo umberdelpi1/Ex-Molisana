@@ -1,0 +1,16 @@
+main{
+  .parteCentrale{
+    height: auto;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    h2{
+      line-height: 50px;
+      text-align: center;
+    }
+  }
+}
